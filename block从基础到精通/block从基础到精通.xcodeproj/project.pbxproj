@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F00B06641DB1DBAF003B5887 /* 50c3fb4bcfbd9_200x200_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F00B06631DB1DBAF003B5887 /* 50c3fb4bcfbd9_200x200_3.jpg */; };
 		F0B8F0191DAB480000459F6D /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B8F0181DAB480000459F6D /* OtherViewController.m */; };
 		F0E59EE71DACBFEB00DA9CE1 /* image_a970ddea65e5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0E59EE61DACBFEB00DA9CE1 /* image_a970ddea65e5.jpg */; };
 		F0F3E2901D9A806200AAE7CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F3E28F1D9A806200AAE7CD /* main.m */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F00B06631DB1DBAF003B5887 /* 50c3fb4bcfbd9_200x200_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 50c3fb4bcfbd9_200x200_3.jpg; sourceTree = "<group>"; };
 		F0B8F0171DAB480000459F6D /* OtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
 		F0B8F0181DAB480000459F6D /* OtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
 		F0E59EE61DACBFEB00DA9CE1 /* image_a970ddea65e5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_a970ddea65e5.jpg; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				F0F3E29C1D9A806200AAE7CD /* LaunchScreen.storyboard */,
 				F0F3E29F1D9A806200AAE7CD /* Info.plist */,
 				F0E59EE61DACBFEB00DA9CE1 /* image_a970ddea65e5.jpg */,
+				F00B06631DB1DBAF003B5887 /* 50c3fb4bcfbd9_200x200_3.jpg */,
 				F0F3E28E1D9A806200AAE7CD /* Supporting Files */,
 			);
 			path = "block从基础到精通";
@@ -203,6 +206,7 @@
 				F0F3E29B1D9A806200AAE7CD /* Assets.xcassets in Resources */,
 				F0F3E2991D9A806200AAE7CD /* Main.storyboard in Resources */,
 				F0E59EE71DACBFEB00DA9CE1 /* image_a970ddea65e5.jpg in Resources */,
+				F00B06641DB1DBAF003B5887 /* 50c3fb4bcfbd9_200x200_3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
