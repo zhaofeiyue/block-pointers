@@ -12,6 +12,8 @@
 @property (nonatomic, strong)NSString *string ;
 @property (nonatomic, assign) NSUInteger texstIndex ;
 @property (nonatomic, strong) NSObject* obj;
+@property (nonatomic, copy)void (^stringxings) (NSString * a) ;
+@property (nonatomic, strong)OtherViewController *othershaha;
 @end
 
 typedef void (*ABExternalChangeCallback)(CFDictionaryRef info, void *context);
@@ -232,7 +234,16 @@ void fun1(int a){
     
     
 }
-
+#pragma mark  循环引用
+- (void)cycleBlocks{
+    self.stringxings = ^(NSString *s){
+        self.string = @"hahah";
+    };
+    __weak ViewController *myself = self;
+    self.othershaha.stringxing = ^(NSString *ss){
+        myself.string = @"hehe";
+    };
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
